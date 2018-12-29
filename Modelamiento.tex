@@ -1,0 +1,56 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{booktabs}
+\title{Bibliography and Criteria Definitions}
+\author{}
+
+\begin{document}
+
+\maketitle
+
+\section{Titulo Danny RIAÑO}
+\subsection{Definition}
+
+
+\(x^2 + y^2 = z^2\)
+
+
+$E=mc^2$
+
+
+V = I R
+
+\begin{table}[h!]
+  \begin{center}
+    \caption{Your first table.}
+    \label{tab:table1}
+    \begin{tabular}{l|c|r} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+      \textbf{Value 1} & \textbf{Value 2} & \textbf{Value 3}\\
+      $\alpha$ & $\beta$ & $\gamma$ \\
+      \hline
+      1 & 1110.1 & a\\
+      2 & 10.1 & b\\
+      3 & 23.113231 & c\\
+    \end{tabular}
+  \end{center}
+\end{table}
+
+
+\begin{table}[]
+\begin{tabular}{@{}lllll@{}}
+\toprule
+V                       & Set of nodes                      &  &  &  \\ \midrule
+\multicolumn{1}{|l|}{E} & \multicolumn{1}{l|}{Set of links} &  &  &  \\ \cmidrule(r){1-2}
+\multicolumn{1}{|l|}{C} & \multicolumn{1}{l|}{Network with} &  &  &  \\ \cmidrule(r){1-2}
+                        &                                   &  &  &  \\ \bottomrule
+\end{tabular}
+\end{table}
+
+
+
+\bibliographystyle{unsrt}%Used BibTeX style is unsrt
+\bibliography{bib_survey}
+
+\end{document}
